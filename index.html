@@ -49,6 +49,7 @@
     grid-area: projects;
     text-align: center;
     padding: 20px;
+    width: 100%;
   }
   worktogether {
   }
@@ -56,6 +57,7 @@
     background-color: #ef4f91;
     grid-area: worktogether;
     padding: 20px;
+    width: 100%;
   }
   footer {
   }
@@ -63,12 +65,13 @@
     background-color: #feba01;
     grid-area: footer;
     padding: 20px;
+    width: 100%;
   }
   .container {
     display: grid;
     width: 100%;
     grid-template-columns: repeat(auto-fit);
-    grid-template-rows: auto auto auto auto;
+    grid-template-rows: repeat(auto-fit);
     grid-template-areas:
       "hello"
       "projects"

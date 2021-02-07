@@ -17,7 +17,7 @@
     color: red;
   }
   .hello {
-    background: lightskyblue;
+    background-color: #0c1163;
     grid-area: hello;
   }
   .image {
@@ -25,21 +25,23 @@
     width: 400px;
   }
   .projects {
-    background: green;
+    background-color: #9000c5;
     grid-area: projects;
   }
   .worktogether {
-    background: pink;
+    background-color: #ef4f91;
     grid-area: worktogether;
   }
   .footer {
-    background: gray;
+    background-color: #feba01;
     grid-area: footer;
   }
   .container {
     display: grid;
-    grid-template-columns: 1fr;
-    grid-template-rows: 1fr 1fr 1fr 1fr;
+    width: 100%;
+    height: 100%;
+    grid-template-columns: 100%;
+    grid-template-rows: 25% 25% 25% 25%;
     grid-template-areas:
       "hello"
       "projects"

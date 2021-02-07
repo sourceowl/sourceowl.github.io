@@ -5,27 +5,63 @@
 <style>
   body {
     color: black;
-  background-color: red; 
+    background-color: red;
+    font-family: monospace;
+    font-size: 16px;
+    
+  }
+  a {
+    color: green;
+  }
+  a:hover {
+    color: red;
   }
   .hello {
+    background: lightskyblue;
+    grid-area: hello;
+  }
+  .image {
     border-radius: 50%;
     width: 400px;
   }
   .projects {
+    background: green;
+    grid-area: projects;
   }
   .worktogether {
+    background: pink;
+    grid-area: worktogether;
   }
   .footer {
+    background: gray;
+    grid-area: footer;
+  }
+  .container {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    grid-template-areas:
+      "hello"
+      "projects"
+      "worktogether"
+      "footer";
   }
   </style>
-  
+
+
 NAVIGATION TOP
 <nav>
   </nav>
+
+<div class="container"> 
   
 HELLO
-<hello>  
-  <img class="hello" src="https://raw.githubusercontent.com/sourceowl/sourceowl.github.io/main/anne-face.jpg">
+<hello>
+  <center>
+  <img class="image" src="https://raw.githubusercontent.com/sourceowl/sourceowl.github.io/main/anne-face.jpg">
+  <h1>Anne Sakae Couture</h1>
+  <p>a web developer</p>
+  </center>
   </hello>
   
 PROJECTS
@@ -38,7 +74,7 @@ PROJECTS
 WORK TOGETHER
 <worktogether>
   <a href="#"><img src="" alt="Github"></a>
-  <a href="#"><img src="" alt="LinkedIn"></a>
+  <a href="https://www.linkedin.com/in/anne-couture-16828481/"><img src="" alt="LinkedIn"></a>
   <a href="#"><img src="" alt="Twitter"></a>
   <a href="#"><img src="" alt="Email"></a>
   </worktogether>
@@ -49,5 +85,6 @@ FOOTER
   made for <a href="">freecodecamp</a>
   </footer> 
 
+  </container>
 </html>
 

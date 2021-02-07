@@ -14,11 +14,18 @@
   a:hover {
     color: red;
   }
+  ul {
+    list-style: none;
+  }
   nav {
+  }
+  .nav {
   display: flex;
     position: fixed;
     top: 0;
     left: 0;
+    justify-content: flex-end;
+    width: 100%;
   }
   hello {
   }
@@ -61,7 +68,7 @@
   }
   </style>
 
-<nav id="nav">
+<nav id="nav" class="nav">
   <ul>
     <li><a href="#">about</a></li>
     <li><a href="#">contact</a></li>
@@ -78,7 +85,7 @@
   </hello>
  
 <projects class="projects">
-  
+  <h2>check out some of my projects</h2>
   <a href="#">Project 1</a>
   <a href="#">Project 2</a>
   <a href="#">Project 3</a>

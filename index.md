@@ -113,10 +113,10 @@
   
 <worktogether class="worktogether">
   <center>
-  <a href="#"><img src="" alt="Github"></a>
-  <a href="https://www.linkedin.com/in/anne-couture-16828481/"><img src="" alt="LinkedIn"></a>
-  <a href="#"><img src="" alt="Twitter"></a>
-  <a href="#"><img src="" alt="Email"></a>
+  <a href="#"><img src="https://github.com/sourceowl/sourceowl.github.io/blob/main/github.png?raw=true" alt="Github" width="20px"></a>
+  <a href="https://www.linkedin.com/in/anne-couture-16828481/"><img src="https://github.com/sourceowl/sourceowl.github.io/blob/main/linkedin-round-color.png?raw=true" alt="LinkedIn" width="20px"></a>
+  <a href="#"><img src="https://github.com/sourceowl/sourceowl.github.io/blob/main/twitter-round-color.png?raw=true" alt="Twitter" width="20px"></a>
+  <a href="mailto:ruralowl@gmail.com"><img src="" alt="Email"></a>
   </center>
   </worktogether>
   </body> 
